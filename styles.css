@@ -1,0 +1,63 @@
+/*main screen styles*/
+
+#main-screen{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container{
+    /*container to hold feeling boxes*/
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+.feeling{
+    /*feeling boxes styles*/
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    width: 150px;
+    height: 150px;
+    background-color: #534B52;
+    border-radius: 5%;
+}
+
+p {
+    /*feeling text style*/
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: #F1F0EA;
+}
+
+#text-container{
+    /*input text container*/
+    width: 600px;
+    height: 400px;
+    border-radius: 5%;
+    background-color: #E0DDCF;
+    display:flex;
+    align-items: first baseline;
+}
+
+#feel-text{
+    background: none;
+    border: none;
+    outline: none;
+    color: #474448;
+    text-align: left;
+    white-space: normal;      
+    word-break: break-word;
+
+    padding-top: 10px;
+    padding-left: 20px;;
+}
