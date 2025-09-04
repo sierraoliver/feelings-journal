@@ -40,6 +40,11 @@
     transform: scale(0.95); 
 }
 
+.feeling.selected{
+    border: 2px solid #ADB5BD;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
 p {
     /*feeling text style*/
     font-size: 10px;
@@ -74,4 +79,8 @@ p {
 img{
     width: 60px;
     height: 60px;
+}
+
+body {
+  transition: background-color 0.5s ease;
 }
