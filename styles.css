@@ -27,7 +27,7 @@
 
     width: 150px;
     height: 150px;
-    background-color: #534B52;
+    background-color: #343A40;
     border-radius: 5%;
 }
 
@@ -43,8 +43,8 @@ p {
     /*input text container*/
     width: 600px;
     height: 400px;
-    border-radius: 5%;
-    background-color: #E0DDCF;
+    border-radius: 20px;
+    background-color: #DEE2E6;
     display:flex;
     align-items: first baseline;
 }
@@ -53,7 +53,7 @@ p {
     background: none;
     border: none;
     outline: none;
-    color: #474448;
+    color: #6C757D;
     text-align: left;
     white-space: normal;      
     word-break: break-word;
