@@ -13,9 +13,8 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    gap: 20px;
+    gap: 10px;
     padding-top: 40px;
-    padding-bottom: 30px;
 }
 
 .feeling{
@@ -25,10 +24,20 @@
     align-items: center;
     justify-content: center;
 
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     background-color: #343A40;
     border-radius: 5%;
+}
+
+.feeling:hover{
+    /*change colour on hover*/
+    background-color: #495057;
+}
+
+.feeling:active {
+    /*shrink slightly when clicked*/
+    transform: scale(0.95); 
 }
 
 p {
@@ -60,4 +69,9 @@ p {
 
     padding-top: 10px;
     padding-left: 20px;;
+}
+
+img{
+    width: 60px;
+    height: 60px;
 }
