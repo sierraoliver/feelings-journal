@@ -1,4 +1,4 @@
-const current_feeling = "";
+let current_feeling = "";
 const feelings = document.querySelectorAll('.feeling');
 
 // Loop through and add click events
@@ -12,3 +12,14 @@ feelings.forEach(feeling => {
         current_feeling = feeling.querySelector('p').textContent;
     });
 });
+
+const entry = document.getElementById('feel-text');
+function addEntry(){
+     let text = entry.value;
+
+    if (text === "") return;
+    if (current_feeling === "") return;
+
+    window.journalAPI.saveEntry(current_feeling, text); 
+    entry.value = "";
+};

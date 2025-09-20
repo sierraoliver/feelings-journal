@@ -71,9 +71,12 @@ p {
     text-align: left;
     white-space: normal;      
     word-break: break-word;
+    height: 100%;
+    width: 100%;
 
     padding-top: 10px;
-    padding-left: 20px;;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 img{
@@ -83,4 +86,23 @@ img{
 
 body {
   transition: background-color 0.5s ease;
+}
+
+.add{
+    margin-top: 30px;
+    width: 100px;
+    height: 30px;
+    background-color: #343A40; 
+    color: #F1F0EA;
+    border: 1px solid #343A40;
+    border-radius: 7.5%;
+    text-align: center;
+}
+
+.add:hover{
+    border: 1px solid #495057;
+}
+
+.add:active{
+    transform: scale(0.95);
 }
